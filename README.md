@@ -10,3 +10,8 @@ Modification for the game server version 1.3x, which adds the GMNotice() functio
 How to use:
 
     GMNotice("Hello PKOdev.NET! This is a GM message.")
+
+## Discussion on the forum
+
+- [English section](https://pkodev.net/topic/6972-gmnotice-function/)
+- [Russian section](https://pkodev.net/topic/6968-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F-gmnotice/)
