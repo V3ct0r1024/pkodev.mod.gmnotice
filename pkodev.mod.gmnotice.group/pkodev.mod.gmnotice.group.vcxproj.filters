@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="import.cpp">
+      <Filter>Mod loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\WPacket.cpp">
+      <Filter>GroupServer</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupServerApp.cpp">
+      <Filter>GroupServer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="structure.h">
+      <Filter>Mod loader</Filter>
+    </ClInclude>
+    <ClInclude Include="address.h">
+      <Filter>Mod loader</Filter>
+    </ClInclude>
+    <ClInclude Include="hook.h">
+      <Filter>Mod loader</Filter>
+    </ClInclude>
+    <ClInclude Include="import.h">
+      <Filter>Mod loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\WPacket.h">
+      <Filter>GroupServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\common.h" />
+    <ClInclude Include="GroupServerApp.h">
+      <Filter>GroupServer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Mod loader">
+      <UniqueIdentifier>{8b966b65-2fab-4b34-b481-d6ac4d49385e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GroupServer">
+      <UniqueIdentifier>{be4d283c-e014-436f-996c-7422df3a2677}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="import.cpp">
+      <Filter>Mod loader</Filter>
+    </ClCompile>
+    <ClCompile Include="GameServerApp.cpp">
+      <Filter>GameServer.exe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\WPacket.cpp">
+      <Filter>GameServer.exe</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="hook.h">
+      <Filter>Mod loader</Filter>
+    </ClInclude>
+    <ClInclude Include="import.h">
+      <Filter>Mod loader</Filter>
+    </ClInclude>
+    <ClInclude Include="structure.h">
+      <Filter>Mod loader</Filter>
+    </ClInclude>
+    <ClInclude Include="address.h">
+      <Filter>Mod loader</Filter>
+    </ClInclude>
+    <ClInclude Include="GameServerApp.h">
+      <Filter>GameServer.exe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\WPacket.h">
+      <Filter>GameServer.exe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\common.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Mod loader">
+      <UniqueIdentifier>{76c280f8-1fdc-4fb9-9cc3-e86bfd55f373}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer.exe">
+      <UniqueIdentifier>{0922f593-b420-43b7-8687-91f10f4e840a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
